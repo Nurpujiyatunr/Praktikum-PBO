@@ -1,12 +1,10 @@
 package tugas.sound;
-public class ToaSound {
-    import tugas.sound SoundBehaviour {
+public class ToaSound implements SoundBehaviour{
+
+    @Override
+    public void sound() {
+        System.out.println("Toa Sounds");
+            }
     
-    public class ToaSound implements SoundBehaviour {
-        
-        public void Sound() {
-            System.out.println("Normal");
-        }
-    }
 }
     
